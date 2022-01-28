@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// import Title from './Title';
+import Title from './Title';
 
 class SolarSystem extends Component {
   render() {
@@ -7,12 +7,10 @@ class SolarSystem extends Component {
 
     return (
       <div data-testid="solar-system">
-        ola como esta
+        <Title headline="Planetas" />
       </div>
     );
   }
 }
-
-// Title.propTypes = propTypes.string;
 
 export default SolarSystem;
