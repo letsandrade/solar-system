@@ -2,11 +2,11 @@ import React, { Component } from 'react';
 
 class Title extends Component {
   render() {
-    const { headline } = this.props;
+    // const { headline } = this.props;
 
-      return (
-        <h2>{ headline }</h2>
-      )
+    return (
+      <h2>{ headline }</h2>
+    );
   }
 }
 
