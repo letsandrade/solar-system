@@ -8,9 +8,9 @@ class MissionCard extends Component {
     return (
       <div data-testid="mission-card">
         <p data-testid="mission-name">{ name }</p>
-        <p data-testid="mission-year">{ year }</p>
-        <p data-testid="mission-country">{ country }</p>
-        <p data-testid="mission-destination">{ destination }</p>
+        <p data-testid="mission-year">{`Ano: ${year}`}</p>
+        <p data-testid="mission-country">{`País: ${country}`}</p>
+        <p data-testid="mission-destination">{`Destino: ${destination}`}</p>
       </div>
     );
   }
