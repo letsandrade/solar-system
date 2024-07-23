@@ -1,3 +1,81 @@
-.App {
+body {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: azure;
+  margin: 0;
+}
+
+.body-wrapper {
+  padding: 1rem 3rem;
+  background-image: url(./images/bg1.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: soft-light;
+}
+
+.title_component {
+  font-size: 32pt;
   text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+.main-title {
+  font-family: "Oxanium", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 60pt;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.planets-wrapper {
+  display: flex;
+  width: 100%;
+}
+
+.planet_card {
+  width: 12.5%;
+  
+}
+
+.planet_card img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.planet_card p {
+  text-align: center;
+  font-weight: 600;
+}
+
+.missions-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.mission_card {
+  width: 260px;
+  padding: 5px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.mission_name {
+  border-bottom: 1px azure solid;
+  font-weight: bold;
+  font-size: 16pt;
+  padding-left: 0.5rem;
+}
+
+.mission_content {
+  padding-left: 0.75rem;
 }

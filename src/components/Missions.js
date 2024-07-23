@@ -8,7 +8,7 @@ class Missions extends Component {
     return (
       <div data-testid="missions">
         <Title headline="Missões" />
-        <section>
+        <section className="missions-wrapper">
           {missions.map(({ name, year, country, destination }) => (
             <MissionCard
               key={ name }

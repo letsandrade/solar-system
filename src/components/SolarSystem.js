@@ -8,9 +8,11 @@ class SolarSystem extends Component {
     return (
       <div data-testid="solar-system">
         <Title headline="Planetas" />
-        { Planets.map(({ name, image }) => (
-          <PlanetCard key={ name } planetName={ name } planetImage={ image } />
-        ))}
+        <div className="planets-wrapper">
+          { Planets.map(({ name, image }) => (
+            <PlanetCard key={ name } planetName={ name } planetImage={ image } />
+          ))}
+        </div>
       </div>
     );
   }
