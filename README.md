@@ -1,4 +1,4 @@
-# Solar System ☑️
+# Solar System 🪐
 
 Hey there! Welcome to my Solar System project. This was the first project of the front-end module (the second module out of 4) in the Trybe course. Here also was my first ever contact with what came to be currently my main framework/library: React. At the time i focused on really nailing the basics of sintaxe, props, and class methods, and ended up not doing any styling, but since it is a project that brough back some nice memories, i did some quick styling and adjustments on it before uploading. 💻
 
@@ -53,7 +53,7 @@ A big shoutout to Trybe for kickstarting my programming career, the great instru
 
 ## pt-BR
 
-# Solar System ☑️
+# Solar System 🪐
 
 Olá! Boas vindas ao meu projeto Solar System. Esse foi o primeiro projeto do módulo de front-end (o segundo módulo de 4) no curso da Trybe. Aqui tive meu primeiro contato com o que se tornou minha principal biblioteca/framework atualmente: React. Na época foquei em realmente entender de maneira sólida os pontos base de sintaxe, props, e métodos de classe, e não fiz nenhuma estilização, mas como é um projeto que trouxe de volta boas memórias, acabei fazendo alguns ajustes e estilizando antes de fazer o upload aqui. 💻
 
