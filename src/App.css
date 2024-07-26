@@ -79,3 +79,10 @@ body {
 .mission_content {
   padding-left: 0.75rem;
 }
+
+.img_credit {
+  text-align: center;
+  margin-top: 2rem;
+  display: block;
+  color: gray
+}
